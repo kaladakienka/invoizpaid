@@ -1,0 +1,13 @@
+version: '2'
+services:
+  jenkins:
+    container_name: invoizpaid_jenkins
+    image: jenkins/jenkins:lts
+    ports:
+      - 8080
+    networks:
+      - main_network
+
+networks:
+  main_network:
+    driver: bridge

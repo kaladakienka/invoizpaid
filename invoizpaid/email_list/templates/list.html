@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>InvoizPAID!</title>
+    </head>
+    <body>
+        <div>
+            <h2>Email list</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th> 
+                </tr>
+                {% for email in emails %}
+                    <tr>
+                        <td>{{ email.name }}</td>
+                        <td>{{ email.email }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <br>
+        <a href="/">Go back home</a>
+        <a href="/add">Add email</a>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<div>
+    <form id="add_email" method="post" action="/add/">
+        {% csrf_token %}
+        <a href="/">Go back home</a>
+        <a href="/list/">Email list</a>
+        <br>
+        <input type="text" name="name" placeholder="John Doe">
+        <br>
+        <input type="text" name="email" placeholder="johndoe@noname.com">
+        <br>
+        <button type="submit">Add</button>
+    </form>
+</div>
