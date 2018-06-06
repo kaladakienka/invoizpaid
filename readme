@@ -3,3 +3,4 @@ Installation instructions
 - cd invoizpaid
 - run python manage.py migrate email_list
 - run python manage.py runserver 0.0.0.0:8000
+- navigate to the exposed localhost url in your browser

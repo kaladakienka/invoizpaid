@@ -12,7 +12,6 @@ COPY . /src
 RUN apt-get update
 RUN apt-get install python-pip -y
 RUN pip install django==1.11
-RUN pip install jenkinsapi
 
 # Expose web service and nodejs debug port
 EXPOSE  8000
