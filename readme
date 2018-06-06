@@ -1,4 +1,9 @@
-Installation instructions
+run ./bin/start_disposable
+
+Installation instructions for challenge 1
+- python jenkins-tool.py
+
+Installation instructions challenge 2
 - run ./bin/start_disposable
 - cd invoizpaid
 - run python manage.py migrate email_list
